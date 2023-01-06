@@ -1,0 +1,7 @@
+services:
+  web:
+    environment:
+      - ka=$ka
+    build: .
+    ports:
+      - "8080:8080"
